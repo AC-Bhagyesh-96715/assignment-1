@@ -43,7 +43,7 @@ void acceptDateFromConsole(struct date *ptrDate)
     printf("Enter the year");
     scanf("%d", &ptrDate->year);
 }
-
+ 
 int main()
 {
     struct date d1;
